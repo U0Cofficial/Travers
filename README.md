@@ -31,13 +31,29 @@ https://github.com/user-attachments/assets/cd82be81-fe56-469b-9749-2f596550eacf
 - 여행 분위기 (활동적인, 여유로운, 특별한 경험)
 - 계절별 추천 여행지와 이미지 제공
 
+
+
+https://github.com/user-attachments/assets/a916410c-bdd2-40c9-baea-ee598ddb69ef
+
+
+
 ### 3. 여행 계획
 - 여행 기간 설정
 - 여행 일정 세부 입력 및 수정 가능
 
+
+
+https://github.com/user-attachments/assets/20c15f3e-b22a-4a21-af12-39f56133a20e
+
+
 ### 4. 여행 기록
 - 여행 중 사진 및 텍스트 기록
 - 여행 기록 조회 및 삭제
+
+
+
+https://github.com/user-attachments/assets/ab03b2ad-f4ec-4036-a8f7-2b939ac8f6d0
+
 
 ---
 
@@ -47,3 +63,9 @@ https://github.com/user-attachments/assets/cd82be81-fe56-469b-9749-2f596550eacf
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+### 2. 환경 설정
+H2 Database는 기본적으로 설정되어 있으며, src/main/resources/application.properties에서 확인 가능합니다.
+###3. 실행
+IntelliJ에서 프로젝트를 열고, TraversApplication을 실행합니다.
+브라우저에서 http://localhost:8080으로 접속합니다.
