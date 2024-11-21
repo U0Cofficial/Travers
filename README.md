@@ -19,8 +19,6 @@
 ### 1. 사용자 관리
 - 회원가입 및 로그인
 - 로그인된 사용자별 개인화된 여행 정보 제공
-- 
-
 https://github.com/user-attachments/assets/cd82be81-fe56-469b-9749-2f596550eacf
 
 
