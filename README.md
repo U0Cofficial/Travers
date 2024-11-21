@@ -1,4 +1,4 @@
-[로그인 기능 (버튼 컴포넌트 등 .. ) (음악, 효과음 등...txt](https://github.com/user-attachments/files/17838905/default.txt)# TravelMate 🌍
+# TravelMate 🌍
 
 **TravelMate**는 여행 계획 수립, 여행 추천, 그리고 여행 기록을 관리할 수 있는 올인원 여행 어플리케이션입니다.  
 사용자는 로그인하여 동행 유형, 분위기, 계절에 맞는 추천 여행지를 확인하고, 여행 계획을 세우거나 여행 중의 추억을 기록할 수 있습니다.
@@ -20,6 +20,10 @@
 - 회원가입 및 로그인
 - 로그인된 사용자별 개인화된 여행 정보 제공
 - 
+
+https://github.com/user-attachments/assets/cd82be81-fe56-469b-9749-2f596550eacf
+
+
 
 
 ### 2. 여행 추천
