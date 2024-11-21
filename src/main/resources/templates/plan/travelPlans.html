@@ -1,0 +1,44 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Travel Plans</title>-->
+<!--    <link rel="stylesheet" href="/css/style.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Your Travel Plans</h1>-->
+<!--<a href="/plan/create">Create New Travel Plan</a>-->
+<!--<ul>-->
+<!--    <li th:each="plan : ${travelPlans}">-->
+<!--        <a th:href="@{'/plan/details/' + ${plan.id}}"-->
+<!--           th:text="${plan.title}"></a>-->
+<!--        <form th:action="@{'/plan/delete/' + ${plan.id}}" method="post">-->
+<!--            <button type="submit">Delete</button>-->
+<!--        </form>-->
+<!--    </li>-->
+<!--</ul>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Travel Plans</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+<h1>Your Travel Plans</h1>
+<a href="/plan/create" class="btn btn-primary mb-3">Create New Travel Plan</a>
+<a href="/user/dashboard" class="btn btn-secondary mb-3">Go to Dashboard</a>
+<ul class="list-group">
+    <li th:each="plan : ${travelPlans}" class="list-group-item d-flex justify-content-between align-items-center">
+        <span th:text="${plan.title}"></span>
+        <div>
+            <a th:href="@{'/plan/details/' + ${plan.id}}" class="btn btn-info btn-sm">View Details</a>
+            <form th:action="@{'/plan/delete/' + ${plan.id}}" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+            </form>
+        </div>
+    </li>
+</ul>
+</body>
+</html>
+

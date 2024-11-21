@@ -1,0 +1,38 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Travel Recommendations</title>-->
+<!--    <link rel="stylesheet" href="/css/style.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>Recommended Travel Destinations</h1>-->
+<!--<div th:if="${#lists.isEmpty(recommendations)}">-->
+<!--    <p>No recommendations found for the selected criteria.</p>-->
+<!--</div>-->
+<!--<div th:each="rec : ${recommendations}">-->
+<!--    <h2 th:text="${rec.title}"></h2>-->
+<!--    <p th:text="${rec.description}"></p>-->
+<!--    <img th:src="${rec.imageUrl}" alt="Travel Image">-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Travel Recommendations</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+<h1>Recommended Travel Destinations</h1>
+<div th:if="${#lists.isEmpty(recommendations)}">
+    <p class="text-muted">No recommendations found for the selected criteria.</p>
+</div>
+<div th:each="rec : ${recommendations}" class="mb-4">
+    <h2 th:text="${rec.title}" class="h4"></h2>
+    <p th:text="${rec.description}"></p>
+    <img th:src="${rec.imageUrl}" alt="Travel Image" class="img-fluid mb-3">
+</div>
+<a href="/recommendation" class="btn btn-primary">Back to Recommendation Form</a>
+<a href="/user/dashboard" class="btn btn-secondary">Go to Dashboard</a>
+</body>
+</html>

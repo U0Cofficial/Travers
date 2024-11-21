@@ -1,0 +1,28 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <title>Travel Plan Details</title>-->
+<!--    <link rel="stylesheet" href="/css/style.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1 th:text="${travelPlan.title}"></h1>-->
+<!--<p th:text="${travelPlan.description}"></p>-->
+<!--<p>Start Date: <span th:text="${travelPlan.startDate}"></span></p>-->
+<!--<p>End Date: <span th:text="${travelPlan.endDate}"></span></p>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Travel Plan Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-4">
+<h1 th:text="${travelPlan.title}"></h1>
+<p th:text="${travelPlan.description}" class="mb-3"></p>
+<p>Start Date: <span th:text="${travelPlan.startDate}"></span></p>
+<p>End Date: <span th:text="${travelPlan.endDate}"></span></p>
+<a href="/plan" class="btn btn-primary mt-3">Back to Plans</a>
+<a href="/user/dashboard" class="btn btn-secondary mt-3">Go to Dashboard</a>
+</body>
+</html>
