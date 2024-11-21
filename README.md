@@ -63,9 +63,12 @@ https://github.com/user-attachments/assets/ab03b2ad-f4ec-4036-a8f7-2b939ac8f6d0
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
+```
 ### 2. 환경 설정
+
 H2 Database는 기본적으로 설정되어 있으며, src/main/resources/application.properties에서 확인 가능합니다.
-###3. 실행
+
+
+### 3. 실행
 IntelliJ에서 프로젝트를 열고, TraversApplication을 실행합니다.
 브라우저에서 http://localhost:8080으로 접속합니다.
