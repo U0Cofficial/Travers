@@ -72,3 +72,22 @@ H2 Database는 기본적으로 설정되어 있으며, src/main/resources/applic
 ### 3. 실행
 IntelliJ에서 프로젝트를 열고, TraversApplication을 실행합니다.
 브라우저에서 http://localhost:8080으로 접속합니다.
+
+## 📂 디렉토리 구조
+
+``` src/
+├── main/
+│   ├── java/webApp/travers/
+│   │   ├── controller/   # 컨트롤러 계층
+│   │   ├── domain/       # 엔티티 클래스
+│   │   ├── repository/   # JPA 리포지토리
+│   │   ├── service/      # 서비스 계층
+│   │   └── TraversApplication.java  # 메인 실행 파일
+│   ├── resources/
+│   │   ├── static/       # 정적 리소스 (CSS, JS, 이미지)
+│   │   ├── templates/    # Thymeleaf 템플릿
+│   │   └── application.properties  # 환경 설정 파일
+│   └── build.gradle       # 빌드 파일
+└── test/
+    └── java/webApp/travers/  # 테스트 코드
+```
