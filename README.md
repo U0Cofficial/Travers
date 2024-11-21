@@ -60,8 +60,8 @@ https://github.com/user-attachments/assets/ab03b2ad-f4ec-4036-a8f7-2b939ac8f6d0
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/U0Cofficial/Travers.git
+cd Travers
 ```
 ### 2. 환경 설정
 
