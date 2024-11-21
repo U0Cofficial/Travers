@@ -10,7 +10,7 @@
 - **Backend**: Java, Spring Boot, JPA (Hibernate), H2 Database
 - **Frontend**: Thymeleaf, Bootstrap
 - **Build Tool**: Gradle
-- **Deployment**: Localhost (개발 중)
+- **Deployment**: Localhost 
 
 ---
 
